@@ -1,0 +1,158 @@
+@import "./vars.css";
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, var(--background-dark), var(--background-light));
+    color: var(--text-color-light);
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: var(--text-color-light);
+}
+
+.hero-section .btn {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--text-color-light);
+}
+
+.hero-section .btn:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Upcoming Match Section */
+.upcoming-match-section {
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.upcoming-match-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.upcoming-match-section .btn-upcoming {
+    background-color: var(--secondary-color);
+    color: var(--text-color-light);
+    border-color: var(--secondary-color);
+}
+
+.upcoming-match-section .btn-upcoming:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+/* Team Stats Section */
+.team-stats-section {
+    background-color: var(--background-dark);
+    color: var(--text-color-light);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team-stats-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.team-stats-section .stat-card {
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Player Roster Section */
+.player-roster-section {
+    background: linear-gradient(to right, var(--background-dark), var(--background-light));
+    color: var(--text-color-light);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.player-roster-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.player-roster-section .player-card {
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Match History Section */
+.match-history-section {
+    background-color: var(--background-dark);
+    color: var(--text-color-light);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.match-history-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.match-history-section .match-card {
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Sponsor Carousel */
+.sponsor-carousel {
+    background-color: var(--background-light);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sponsor-carousel h2 {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.sponsor-carousel img {
+    max-width: 100px;
+    margin: 20px;
+}
+
+/* Articles Section */
+.articles-section {
+    background-color: var(--background-dark);
+    color: var(--text-color-light);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.articles-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.articles-section .article-card {
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}

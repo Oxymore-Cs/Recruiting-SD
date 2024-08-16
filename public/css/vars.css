@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+    :root {
+        --primary-color: #00e1e6; /* Turquoise cyan du logo */
+        --secondary-color: #7a00b8; /* Violet du logo */
+        --accent-color: #e100f7; /* Rose accent du logo */
+        --background-dark: #0d001b; /* Fond sombre */
+        --background-light: #1a002f; /* Fond un peu plus clair pour les dégradés */
+        --text-color-light: #ffffff; /* Couleur du texte clair */
+        --text-color-dark: #000000; /* Couleur du texte sombre */
+        
+        /* FONT */
+        --font-family: 'Arial, sans-serif';
+
+}
